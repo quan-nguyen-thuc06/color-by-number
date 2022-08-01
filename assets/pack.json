@@ -1,0 +1,46 @@
+{
+    "preload": {
+        "files": [
+            {
+                "type": "bitmapFont",
+                "key": "font",
+                "textureURL": "./assets/font/number.png",
+                "fontDataURL": "./assets/font/number.xml"
+            },
+            {
+                "type": "image",
+                "key": "block",
+                "url": "./assets/images/block.png"
+            },
+            {
+                "type": "image",
+                "key": "btn-start",
+                "url": "./assets/images/play-btn.png"
+            },
+            {
+                "type": "image",
+                "key": "btn-next",
+                "url": "./assets/images/next-btn.png"
+            },
+            {
+                "type": "image",
+                "key": "btn-back",
+                "url": "./assets/images/previous.png"
+            },
+            {
+                "type": "image",
+                "key": "check",
+                "url": "./assets/images/check.png"
+            },
+            {
+                "type": "spritesheet",
+                "key": "btn-zoom",
+                "url": "./assets/images/zoom-in-out.png",
+                "frameConfig": {
+                  "frameWidth": 73,
+                  "frameHeight": 73
+                }
+            }
+        ]
+    }
+}
